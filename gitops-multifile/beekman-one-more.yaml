@@ -20,7 +20,7 @@
          - name: RUN_TYPE
            value: cpu
          - name: CPU_PERCENT
-           value: "40"
+           value: "95"
          image: quay.io/ecotz/sampleapp:latest
          imagePullPolicy: Always
          name: beekman-1
