@@ -20,17 +20,17 @@
          - name: RUN_TYPE
            value: cpu
          - name: CPU_PERCENT
-           value: "95"
+           value: "40"
          image: quay.io/ecotz/sampleapp:latest
          imagePullPolicy: Always
          name: beekman-1
          resources:
            limits:
-             cpu: 11m
-             memory: 28Mi
+             cpu: 5m
+             memory: 8Mi
            requests:
-             cpu: 10m
-             memory: 10Mi
+             cpu: 5m
+             memory:5Mi
          terminationMessagePath: /dev/termination-log
          terminationMessagePolicy: File
        dnsPolicy: ClusterFirst
